@@ -5,7 +5,7 @@ import MapPage from './MapPage';
 
 function App() {
   return (
-    <BrowserRouter basename="/haritamfiyat">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<MapPage />} />
         <Route path="/textpage" element={<TextPage />} />
